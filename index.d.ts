@@ -10,7 +10,9 @@ import './foundry/audioHelper';
 import './foundry/avClient';
 import './foundry/avMaster';
 import './foundry/avSettings';
+import './foundry/cameraPopoutAppWrapper';
 import './foundry/canvas';
+import './foundry/canvasAnimation';
 import './foundry/chatBubbles';
 import './foundry/clientSettings';
 import './foundry/collection';
@@ -48,6 +50,7 @@ import './foundry/sortingHelpers';
 import './foundry/tabs';
 import './foundry/templateUtils';
 import './foundry/textEditor';
+import './foundry/textureLoader';
 import './foundry/textureUtils';
 import './foundry/types';
 import './foundry/userTargets';
@@ -62,8 +65,10 @@ import './foundry/applications/dialog';
 import './foundry/applications/eula';
 import './foundry/applications/filePicker';
 import './foundry/applications/formApplication';
+import './foundry/applications/frameViewer';
 import './foundry/applications/headsUpDisplay';
 import './foundry/applications/hotbar';
+import './foundry/applications/invitationLinks';
 import './foundry/applications/mainMenu';
 import './foundry/applications/notifications';
 import './foundry/applications/pause';
@@ -156,6 +161,7 @@ import './foundry/entities/user';
 import './foundry/pixi/containers/baseGrid';
 import './foundry/pixi/containers/canvasLayer';
 import './foundry/pixi/containers/controlIcon';
+import './foundry/pixi/containers/cursor';
 import './foundry/pixi/containers/doorControl';
 import './foundry/pixi/containers/placeableObject';
 import './foundry/pixi/containers/ruler';
@@ -163,12 +169,21 @@ import './foundry/pixi/containers/ruler';
 import './foundry/pixi/containers/baseGrids/hexagonalGrid';
 import './foundry/pixi/containers/baseGrids/squareGrid';
 
+import './foundry/pixi/containers/canvasLayers/backgroundLayer';
+import './foundry/pixi/containers/canvasLayers/controlsLayer';
+import './foundry/pixi/containers/canvasLayers/effectsLayer';
 import './foundry/pixi/containers/canvasLayers/gridLayer';
 import './foundry/pixi/containers/canvasLayers/placeablesLayer';
 import './foundry/pixi/containers/canvasLayers/sightLayer';
 
+import './foundry/pixi/containers/canvasLayers/placeablesLayers/drawingsLayer';
 import './foundry/pixi/containers/canvasLayers/placeablesLayers/lightingLayer';
+import './foundry/pixi/containers/canvasLayers/placeablesLayers/notesLayer';
+import './foundry/pixi/containers/canvasLayers/placeablesLayers/soundsLayer';
+import './foundry/pixi/containers/canvasLayers/placeablesLayers/templateLayer';
+import './foundry/pixi/containers/canvasLayers/placeablesLayers/tilesLayer';
 import './foundry/pixi/containers/canvasLayers/placeablesLayers/tokenLayer';
+import './foundry/pixi/containers/canvasLayers/placeablesLayers/wallsLayer';
 
 import './foundry/pixi/containers/placeableObjects/ambientLight';
 import './foundry/pixi/containers/placeableObjects/ambientSound';
@@ -180,6 +195,7 @@ import './foundry/pixi/containers/placeableObjects/token';
 import './foundry/pixi/containers/placeableObjects/wall';
 
 import './foundry/pixi/graphics/gridHighlight';
+import './foundry/pixi/graphics/resizeHandle';
 
 import './foundry/pixi/rectangles/normalizedRectangle';
 
